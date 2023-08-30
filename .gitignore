@@ -1,0 +1,5 @@
+addict.xcodeproj
+addict.xcodeproj/project.pbxproj
+venv
+*.sqlite3
+.ipynb_checkpoints
