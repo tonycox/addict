@@ -3,3 +3,6 @@ addict.xcodeproj/project.pbxproj
 venv
 *.sqlite3
 .ipynb_checkpoints
+Miniforge3-MacOSX-arm64.sh
+local.env
+*.gguf

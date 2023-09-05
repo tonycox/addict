@@ -7,10 +7,18 @@ readme = "README.md"
 packages = []
 
 [tool.poetry.dependencies]
-python = "^3.10"
-llama-cpp-python = {extras = ["server"], version = "^0.1.83"}
+python = ">=3.10,<3.13"
 jupyter = "^1.0.0"
+torch = "^2.0.1"
+llama-cpp-python = "^0.1.83"
+gguf = ">=0.1.0"
+numpy = "^1.25.2"
+sentencepiece = "^0.1.99"
+huggingface-hub = "^0.16.4"
 
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["d"], version = "^23.7.0"}
 
 [build-system]
 requires = ["poetry-core"]
